@@ -7,4 +7,8 @@ function raspisan($chat_id){
 	//sendMessage($chat_id, $chat_id);
 	}
 
+function spisokgr($chat_id){
+	sendTxt($chat_id, FILE_GRUPPA);
+}
+
 ?>
