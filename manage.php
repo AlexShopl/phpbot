@@ -28,6 +28,7 @@ function bot_manager($message, $chat_id, $user_id)
 			    //----- Умный одногруппник -----
 				if (substr($mess,1,4) == "rasp") raspisan($chat_id);
 				if (substr($mess,1,9) == "headgroup") return TBHEADGROUP;
+				if (substr($mess,1,8) == "spisokgr") spisokgr($chat_id);
 			    //----- Команды помошники -----
 			    if (substr($mess,1,7) == "chat_id") sendMessage($chat_id, $chat_id);
 				if (substr($mess,1,7) == "user_id") sendMessage($chat_id, $user_id);
